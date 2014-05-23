@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<listener>
+		<listener-class>de.rweber.wishlist.InitServlet</listener-class>
+	</listener>
+	<servlet>
+		<servlet-name>Wishlist</servlet-name>
+		<servlet-class>de.rweber.wishlist.ui_interface.WishlistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Wishlist</servlet-name>
+		<url-pattern>/wishlist</url-pattern>
+	</servlet-mapping>
+	<error-page>
+	    <error-code>500</error-code>
+	    <location>/index.jsp</location>
+	</error-page>
+	<welcome-file-list>
+		<welcome-file>wishlist</welcome-file>
+	</welcome-file-list>
+</web-app>
