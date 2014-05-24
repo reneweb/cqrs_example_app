@@ -1,6 +1,6 @@
 cqrs_example_app
 ================
 
-This is a very simple demo application for the Command and Query Responsibility Segregation (CQRS) and Event Sourcing patterns. The application is using Google AppEngine APIs.
+This is a very simple demo application for the Command and Query Responsibility Segregation (CQRS) and Event Sourcing patterns. The application is using Google AppEngine APIs as well as Bootstrap.
 
-Here is a running instance of the app: http://cqrs-event-sourcing-sample.appspot.com/ 
+A running instance of the app: http://cqrs-event-sourcing-sample.appspot.com/ 
